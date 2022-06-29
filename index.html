@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brincando com o Título</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+</head>
+<body onload="loaded()">
+    <script src="./script.js"></script>
+    <h1 class="principalTitle">Meu texto que vai ser modificado.</h1>
+    <section>
+        <div class="divBotoes">
+            <input class="btnMudarCor botoes" type="submit" value="Mudar cor " onclick="mudaCor()">
+            <input class="btnMudarBackground botoes" type="submit" value="Mudar background" onclick="mudaBackground()">
+        </div>
+    </section>
+    <section>
+        <div class="divBotoes">
+            <input class="textMudarTexto botoes" type="text" placeholder="Digite aqui...">
+            <input class="btnMudarTexto botoes" type="submit" value="Mudar o texto" onclick="mudaTexto()">
+        </div>
+        <div class="divBotoesZoom">
+            <input class="btnZoom botoes" id="in" type="submit" value="+">
+            <input class="btnZoom botoes" id="off" type="submit" value="-">
+        </div>
+    </section>
+
+</body>
+</html>

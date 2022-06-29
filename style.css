@@ -1,0 +1,43 @@
+
+body{
+    background-color: black;
+}
+
+.principalTitle{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 100px;
+    word-wrap: break-word;
+}
+
+section{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.botoes{
+    width: 130px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.btnZoom{
+    width: 30px;
+    text-align: center;
+}
+
+.divBotoes{
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    background-color: gray;
+}
+
+.divBotoesZoom{
+    padding: 20px;
+    margin: auto;
+    padding-top: 0px;
+    width: 50%;
+    background-color: gray;
+}
